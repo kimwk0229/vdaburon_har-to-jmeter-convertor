@@ -26,7 +26,6 @@ public class TransactionInfo {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -34,7 +33,6 @@ public class TransactionInfo {
     public String getBeginDateTime() {
         return beginDateTime;
     }
-
     public void setBeginDateTime(String beginDateTime) {
         this.beginDateTime = beginDateTime;
     }
@@ -42,10 +40,10 @@ public class TransactionInfo {
     public String getEndDateTime() {
         return endDateTime;
     }
-
     public void setEndDateTime(String endDateTime) {
         this.endDateTime = endDateTime;
     }
+
 
     @Override
     public String toString() {
